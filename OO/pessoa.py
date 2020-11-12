@@ -18,6 +18,12 @@ if __name__ == '__main__':
     for filho in pedro.filhos:
         print(filho.nome)
     print(pedro.filhos)
+    pedro.sobrenome = 'Resende'
+    del pedro.filhos
+    print(pedro.sobrenome)
+    print(pedro.__dict__)
+    print(toddinho.__dict__)
+
 
 
 
